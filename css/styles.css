@@ -1,0 +1,47 @@
+/** {*/
+    /*box-sizing: border-box*/
+/*}*/
+
+html, body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 20px;
+    line-height: 34px;
+    color: #494949;
+    font-family: Georgia, serif;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 51px;
+}
+
+h2 {
+    font-size: 26px;
+    line-height: 34px;
+}
+
+a {
+    color: #494949;
+}
+
+a:hover, a:active, a:focus {
+    color: #2E2E2E;
+}
+
+.section {
+    padding: 2rem 0;
+}
+
+.section:nth-child(even) {
+    background-color: #fbdd33
+}
+
+.section > div {
+    max-width: 40rem;
+    margin: 0 auto;
+    padding: 0 20px;
+}
